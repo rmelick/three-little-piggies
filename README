@@ -1,0 +1,7 @@
+
+
+If you update pig.flex, you should recompile PigLexer by running this command from the src/com/metamx/idea/pig directory
+
+~/src/intellij-idea/tools/lexer/jflex-1.4/bin/jflex --charat --nobak --skel ~/src/intellij-idea/tools/lexer/idea-flex.skeleton pig.flex
+
+where ~/src/intellij-idea is the location where you checked out the IDEA source code

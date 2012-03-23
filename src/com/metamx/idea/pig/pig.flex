@@ -80,6 +80,7 @@ ESCAPE_SEQUENCE=\\[^\r\n]
 <YYINITIAL> "AS" { return PigTokenType.AS_KEYWORD; }
 <YYINITIAL> "ASC" { return PigTokenType.ASC_KEYWORD; }
 <YYINITIAL> "BAG" { return PigTokenType.BAG_KEYWORD; }
+<YYINITIAL> "BY" { return PigTokenType.BY_KEYWORD; }
 <YYINITIAL> "CACHE" { return PigTokenType.CACHE_KEYWORD; }
 <YYINITIAL> "CHARARRAY" { return PigTokenType.CHARARRAY_KEYWORD; }
 <YYINITIAL> "COGROUP" { return PigTokenType.COGROUP_KEYWORD; }
