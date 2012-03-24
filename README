@@ -1,4 +1,5 @@
-
+In order to compile this, you'll need to download the intellij community edition source, and set up your intellij for plugin development (all you probably need to do is create the sdk
+http://confluence.jetbrains.net/display/IDEADEV/Getting+Started+with+Plugin+Development#GettingStartedwithPluginDevelopment-anchor5
 
 If you update pig.flex, you should recompile PigLexer by running this command from the src/com/metamx/idea/pig directory
 
